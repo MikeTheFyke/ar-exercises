@@ -11,4 +11,4 @@ puts "----------"
 # 3. Update the fist store with another name
 @store1.update(name: "Peterborough")
 # 2. Load the second store from the DB and assign it to @store2
-@store2 = Store.find_by(id:1)
+@store2 = Store.find_by(id:2)
